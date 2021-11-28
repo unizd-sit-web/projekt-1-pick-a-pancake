@@ -19,7 +19,9 @@
     font-family: "Consolas";
     font-size: 12px;
   }
-  
+  ul {
+  list-style-type: none;
+      
   .container {
     width: 940px;
     margin: auto;
