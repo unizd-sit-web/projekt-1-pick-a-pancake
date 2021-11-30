@@ -1,172 +1,179 @@
+*: {
+  box-sizing: border-box;
+}
 * {
-    box-sizing: border-box;
-  }
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  body {
-    font-family: "Consolas";
-  }
-  
-  .promo-container {
-    color: #fff;
-    background-color: #000000; 
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    font-family: "Consolas";
-    font-size: 12px;
-  }
-  ul {
-  list-style-type: none;
-      
-  .container {
-    width: 940px;
-    margin: auto;
-  }
-  
-  .title{
-    font-size: 20px;
-  }
-  .header-menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: #37523d;
-    font-weight: bolder;
-    font-family: "Lucida Handwriting";
-    margin-top: 15px;
-  }
-  
-  .header-menu ul {
-    display: flex;
-    align-items: center;
-  }
-  
-  
-  .header-menu li {
-    color: #37523d;
-    font-weight: bolder;
-  }
-  
-  .header-menu li a {
-    padding: 30px 20px;
-    margin-left: 15px;
-    display: block;
-    color: #37523d;
-  }
-  
-  .shopping-icon {
-    margin-left: 15px;
-  }
-  
-  .header-menu li a hover {
-    border-bottom: 3px solid seagreen;
-  }
-  
-  .title-img {
-    margin-bottom: 200px;
-    max-width: 100%;
-    height: auto;
-    
-  }
-  
-  .content {
-    display: flex;
-  }
-  
-  .product-list {
-    margin-left: 10px;
-  }
-  
-  .product-name {
-    display: flex;
-    justify-content: space-around;
-    border: 1px solid #e7eeea;
-    text-align: center;
-  }
-  
-  .product-name h3 {
-    padding: 15px 20px;
-    width: 50%;
-  }
-  
-  .product-name span {
-    font-weight: bolder;
-    padding: 14px 20px;
-    display: block;
-    border-left: 1px solid #e7eeea;
-  }
-  
-  .product-list ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  
-  .product-list li {
-    color: #37523d;
-    font-size: 20px;
-    margin-bottom: 45px;
-    position: relative;
-    width: 300px;
-  }
-  
-  .product-list li p {
-    position: absolute;
-    writing-mode: vertical-lr;
-    background: #37523d;
-    padding: 16px 9px 16px 8px;
-    letter-spacing: 2px;
-    color: #fff;
-    left: 8px;
-    font-weight: bold;
-  }
-  
-  .icon-favorite {
-    position: absolute;
-    right: 20px;
-    top: 20px;
-  }
-  
-  .product-list a {
-    background: #e7eeea;
-    font-size: 27px;
-    font-weight: bolder;
-    display: block;
-    padding: 21px;
-    text-align: center;
-    text-decoration: none;
-    color: #37523d;
-  }
-  
-  .product-list a:hover {
-    background: #37523d;
-    color: #e7eeea;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  a.contact-email:link,
-  a.contact-email:visited {
-       color: #313638;
-       text-decoration: none;
-      }
-      
-  .footer-container {
-    color: #313638;
-    background-color: #E0DFD5;
-    padding: 5px 0;
-    display: flex;
-    justify-content: center;
-    line-height: 21px;
-  }
+body {
+  font-family: "Consolas";
+}
+
+.promo-container {
+  color: #fff;
+  background-color: #000000; 
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Consolas";
+  font-size: 12px;
+}
+
+.container {
+  width: 950px;
+  margin: auto;
+}
+
+.title{
+  font-size: 20px;
+}
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #37523d;
+  font-weight: bolder;
+  font-family: "Lucida Handwriting";
+  margin-top: 15px;
+}
+
+.header-menu ul {
+  display: flex;
+  align-items: center;
+}
+
+
+.header-menu li {
+  color: #37523d;
+  font-weight: bolder;
+}
+
+.header-menu li a {
+  padding: 30px 20px;
+  margin-left: 15px;
+  display: block;
+  color: #37523d;
+}
+
+.shopping-icon {
+  margin-left: 15px;
+}
+
+.header-menu li a: hover {
+  border-bottom: 3px solid seagreen;
+}
+
+.title-img {
+  margin-top: 15px;
+  margin-bottom: 200px;
+  max-width: 100%;
+  height: auto;
   
-  .footer {
-    font-size: 12px;
-    width: 900px;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-    margin: auto;
-  }
+}
+
+.content {
+  display: flex;
+}
+
+.product-list {
+  margin-left: 10px;
+}
+
+.product-name {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid #e7eeea;
+  text-align: center;
+}
+
+.product-name h3 {
+  padding: 15px 20px;
+  width: 50%;
+}
+
+.product-name span {
+  font-weight: bolder;
+  padding: 14px 20px;
+  display: block;
+  border-left: 1px solid #e7eeea;
+}
+
+.product-list ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product-list li {
+  color: #37523d;
+  font-size: 20px;
+  margin-bottom: 45px;
+  position: relative;
+  width: 300px;
+}
+
+.product-list li p {
+  position: absolute;
+  writing-mode: vertical-lr;
+  background: #37523d;
+  padding: 16px 9px 16px 8px;
+  letter-spacing: 2px;
+  color: #fff;
+  left: 8px;
+  font-weight: bold;
+}
+
+.icon-favorite {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.product-list a {
+  background: #e7eeea;
+  font-size: 27px;
+  font-weight: bolder;
+  display: block;
+  padding: 21px;
+  text-align: center;
+  text-decoration: none;
+  color: #37523d;
+}
+
+.product-list a:hover {
+  background: #37523d;
+  color: #e7eeea;
+}
+
+
+.footer-container {
+  color: #313638;
+  background-color: #E0DFD5;
+  padding: 5px 0;
+  display: flex;
+  justify-content: center;
+  line-height: 21px;
+  flex: 1;
+  position: apsolute;
+  right: 0;
+  left: 0;
+}
+
+a.contact-email:link,
+a.contact-email:visited {
+  color: #313638;
+  text-decoration: none;
+}
+
+.footer {
+  font-size: 12px;
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+ul {
+  list-style-type: none;
