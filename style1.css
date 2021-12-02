@@ -112,7 +112,14 @@ body {
     background-color: #f1f1f1;
 }
 
-input[type=text], input[type=submit] {
+label {
+    padding-top: 10px;
+    float: left;
+}
+
+
+
+input[type=text], input[type=submit], input[type=number], input[type=date] {
     width: 100%;
     padding: 12px;
     margin: 8px 0;
