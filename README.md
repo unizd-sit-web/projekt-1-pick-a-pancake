@@ -1,1 +1,12 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg)](https://classroom.github.com/online_ide?assignment_repo_id=6460976&assignment_repo_type=AssignmentRepo)
+# Projekt 1: Pick a pancake
+
+* __autori:__
+  * Daria Babić
+  * Helena Pavlić 
+
+* __opis:__ Web stranica jedne palačinkarnice koja nudi mogućnosti naručivanja putem interneta, rezervacije stola, prijave na newsletter. 
+  Posjetitelji također mogu pronaći poveznice na društvene mreže i saznati nešto više o samoj palačinkarnici u dijelu _about us_.
+
+* __link:__ https://unizd-sit-web.github.io/projekt-1-pick-a-pancake/
+
+
